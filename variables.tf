@@ -5,6 +5,6 @@ variable "api_key" {
 variable "song_selection" {
   type = list(object({
     artist = string
-    name   = list(string)
+    song   = string
   }))
 }
